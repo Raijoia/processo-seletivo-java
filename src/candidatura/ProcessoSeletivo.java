@@ -7,6 +7,15 @@ public class ProcessoSeletivo {
 		System.out.println("Processo Seletivo");
 
 		selecaoCandidatos();
+		imprimirSelecionados();
+	}
+	
+	static void imprimirSelecionados() {
+		String[] candidatos = {"RAÍ", "Julia", "CRISTIANE", "EDUARDO", "MONIQUE"};
+		
+		for(String candidato: candidatos) {
+			System.out.println("O candidato " + candidato + " foi selecionado");
+		}
 	}
 	
 	static void selecaoCandidatos() {
